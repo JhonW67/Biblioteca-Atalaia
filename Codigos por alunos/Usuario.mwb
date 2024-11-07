@@ -1,4 +1,4 @@
--- Criação da Tabela Usuario: João Vitor
+-- Criacao da Tabela Usuario: João Vitor
 CREATE TABLE Usuario (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
