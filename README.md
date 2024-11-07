@@ -1,5 +1,6 @@
 # Biblioteca-Atalaia
 PJBD - Sistema de Controle de Biblioteca
+
 🗄️ Banco de Dados
 - **MYSQL**: um sistema de gerenciamento de banco de dados relacional (SGBDR) de código aberto. É utilizado para armazenar, organizar e recuperar dados em aplicações.
 - **MySQL Workbench 8.0**: É uma ferramenta gráfica (GUI) oficial do MySQL, desenvolvida para facilitar a criação, manipulação e administração de bancos de dados.
