@@ -1,0 +1,7 @@
+-- Tabela Editora
+CREATE TABLE Editora (
+    id_editora INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    endereco VARCHAR(150),
+    telefone VARCHAR(15)
+);
