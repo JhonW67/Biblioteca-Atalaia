@@ -1,0 +1,7 @@
+CREATE TABLE Multa (
+    id_multa INT AUTO_INCREMENT PRIMARY KEY,
+    id_emprestimo INT NOT NULL,
+    valor DECIMAL(10, 2) NOT NULL,
+    data_pagamento DATE,
+    CONSTRAINT fk_multa_emprestimo FOREIGN KEY (id_emprestimo) REFERENCES Emprestimo(id_emprestimo)
+);
