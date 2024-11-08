@@ -1,0 +1,5 @@
+CREATE TABLE Funcionario (
+    id_funcionario INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cargo VARCHAR(50) NOT NULL
+);
