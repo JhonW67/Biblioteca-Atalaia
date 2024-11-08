@@ -1,0 +1,10 @@
+Tabela Histórico de Movimentação
+CREATE TABLE HistoricoMovimentacao (
+    id_movimentacao INT AUTO_INCREMENT PRIMARY KEY,
+    id_livro INT NOT NULL,
+    id_usuario INT NOT NULL,
+    tipo_movimentacao ENUM('emprestimo', 'devolucao') NOT NULL,
+    data_movimentacao DATE NOT NULL,
+    CONSTRAINT fk_movimentacao_livro FOREIGN KEY (id_livro) REFERENCES Livro(id_livro),
+    CONSTRAINT fk_movimentacao_usuario FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+);
