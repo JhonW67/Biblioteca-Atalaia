@@ -1,4 +1,3 @@
 -- Criação do banco de dados
-
-CREATE DATABASE BibliotecaAtalaia;
-USE BibliotecaAtalaia;
+CREATE DATABASE biblioteca_atalaia;
+USE biblioteca_atalaia;
