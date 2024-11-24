@@ -25,29 +25,8 @@ O principal objetivo do DLD é fornecer uma visão estruturada e detalhada de co
 
 ![biblioteca_atalaia](https://github.com/user-attachments/assets/ce824463-3193-4e48-a0f6-43ecbd737d16)
 
+<h3>2.2 Entidades</h3>
 
 
-```Código do banco de dados para criar a Biblioteca Atalaia
-
--- Criação do banco de dados
-
-CREATE DATABASE BibliotecaAtalaia;
-USE BibliotecaAtalaia;
-
-
--- Tabela Autor
-CREATE TABLE Autor (
-    id_autor INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL
-);
-
-
--- Tabela Editora
-CREATE TABLE Editora (
-    id_editora INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    endereco VARCHAR(150),
-    telefone VARCHAR(15)
-);
 
 
