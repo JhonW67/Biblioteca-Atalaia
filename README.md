@@ -16,7 +16,7 @@ Este documento apresenta as informações essenciais sobre o banco de dados do S
 
 # 2. Documentos Criados
 
-<h1>2.1 DLD</h1>
+<h3>2.1 DLD</h3>
 
 O Diagrama Lógico de Dados (DLD) do Sistema de Controle de Biblioteca é uma representação gráfica que ilustra a estrutura lógica do banco de dados utilizado para gerenciar os diferentes processos da biblioteca. Nesse diagrama, são exibidas informações cruciais, como os tipos de atributos associados às entidades (como autores, editoras, categorias, livros, usuários, empréstimos, funcionários, multas, reservas, histórico de movimentação, fornecedores), bem como as relações entre elas, incluindo chaves estrangeiras e restrições, como chaves únicas (unique keys).
 
