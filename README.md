@@ -9,7 +9,7 @@ PJBD - Sistema de Controle de Biblioteca
 - DDL - Linguagem de Definição de Dados
 - DML - Linguagem de Manipulação de Dados
 
-#Introdução
+# Introdução
 
 Este documento apresenta as informações essenciais sobre o banco de dados do Sistema de Controle de Biblioteca, incluindo sua estrutura, modelagem e principais tabelas. Ele foi criado para facilitar o entendimento e a implementação do sistema, garantindo uma gestão eficiente de uma biblioteca.
 
