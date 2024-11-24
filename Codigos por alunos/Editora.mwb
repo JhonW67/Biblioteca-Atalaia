@@ -1,5 +1,5 @@
 -- Tabela Editora
-CREATE TABLE Editora (
+CREATE TABLE editora (
     id_editora INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     endereco VARCHAR(150),
