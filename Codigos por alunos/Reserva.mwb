@@ -1,10 +1,10 @@
 Tabela Reserva
-CREATE TABLE Reserva (
+CREATE TABLE reserva (
     id_reserva INT AUTO_INCREMENT PRIMARY KEY,
     id_usuario INT NOT NULL,
     id_livro INT NOT NULL,
     data_reserva DATE NOT NULL,
     status ENUM('ativa', 'cancelada', 'atendida') DEFAULT 'ativa',
-    CONSTRAINT fk_reserva_usuario FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario),
-    CONSTRAINT fk_reserva_livro FOREIGN KEY (id_livro) REFERENCES Livro(id_livro)
+    CONSTRAINT fk_reserva_usuario FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario),
+    CONSTRAINT fk_reserva_livro FOREIGN KEY (id_livro) REFERENCES livro(id_livro)
 );
