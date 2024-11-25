@@ -49,49 +49,60 @@ O Modelo Entidade-Relacionamento (MER) é uma abordagem conceitual utilizada no 
 
 **2.1.3 Relacionamentos**
 
-1. autor tem livro
-Um autor pode escrever zero ou vários livros, e um livro tem apenas um autor.
-Cardinalidade: (1:N).
 
-2. editora publica livro
-Uma editora pode publicar zero ou vários livros, e um livro é publicado por apenas uma editora.
-Cardinalidade: (1:N)
+- autor tem livro</br>
+</br>Um autor pode escrever zero ou vários livros, e um livro tem apenas um autor.</br>
+  Cardinalidade: (1:N).
 
-3. categoria classifica LIVRO
-Uma categoria pode classificar zero ou vários livro, e um livro pertence a apenas uma categoria.
-Cardinalidade: (1:N)
+  
+- editora publica livro</br>
+</br>Uma editora pode publicar zero ou vários livros, e um livro é publicado por apenas uma editora.</br>
+  Cardinalidade: (1:N).
 
-4. usuario faz emprestimo
-Um usuario pode realizar zero ou vários emprestimos, e um emprestimo é realizado por apenas um usuario.
-Cardinalidade: (1:N)
 
-5. livro é emprestado em emprestimo
-Um livro pode ser emprestado várias vezes, e um emprestimo envolve apenas um livro.
-Cardinalidade: (1:N)
+- categoria classifica LIVRO</br>
+</br>Uma categoria pode classificar zero ou vários livro, e um livro pertence a apenas uma categoria.</br>
+  Cardinalidade: (1:N).
 
-6. emprestimo gera multa
-Um emprestimo pode gerar zero ou uma multa, e uma multa está associada a apenas um emprestimo.
-Cardinalidade: (1:1)
 
-7. usuario faz reserva
-Um usuario pode fazer zero ou várias reservas, e uma reserva é feita por apenas um usuario.
-Cardinalidade: (1:N)
+- usuario faz emprestimo</br>
+</br>Um usuario pode realizar zero ou vários emprestimos, e um emprestimo é realizado por apenas um usuario.</br>
+  Cardinalidade: (1:N)
 
-8. livro é reservado em reserva
-Um livro pode ser reservado várias vezes por diferentes usuarios, e uma reserva envolve apenas um livro.
-Cardinalidade: (1:N)
 
-9. usuario tem historico_movimentacao
-Um usuario pode ter zero ou várias movimentações(empréstimos e devoluções), e um historico_movimentacao está associada a apenas um usuario.
-Cardinalidade: (1:N)
+- livro é emprestado em emprestimo</br>
+</br>Um livro pode ser emprestado várias vezes, e um emprestimo envolve apenas um livro.</br>
+  Cardinalidade: (1:N)
 
-10. livro tem historico_movimentacao
-Um livro pode ter zero ou várias movimentações(empréstimos e devoluções), e um historico_movimentacao está associada a apenas um livro.
-Cardinalidade: (1:N)
 
-11. fornecedor fornece livro
-Um fornecedor pode fornecer zero ou vários livros, e um livro é fornecido por apenas um fornecedor.
-Cardinalidade: (1:N)
+- emprestimo gera multa</br>
+</br>Um emprestimo pode gerar zero ou uma multa, e uma multa está associada a apenas um emprestimo.</br>
+  Cardinalidade: (1:1)
+
+
+- usuario faz reserva</br>
+</br>Um usuario pode fazer zero ou várias reservas, e uma reserva é feita por apenas um usuario.</br>
+  Cardinalidade: (1:N)
+
+
+- livro é reservado em reserva</br>
+</br>Um livro pode ser reservado várias vezes por diferentes usuarios, e uma reserva envolve apenas um livro.</br>
+  Cardinalidade: (1:N)
+
+
+- usuario tem historico_movimentacao</br>
+</br>Um usuario pode ter zero ou várias movimentações(empréstimos e devoluções), e um historico_movimentacao está associada a apenas um usuario.</br>
+  Cardinalidade: (1:N)
+
+
+- livro tem historico_movimentacao</br>
+</br>Um livro pode ter zero ou várias movimentações(empréstimos e devoluções), e um historico_movimentacao está associada a apenas um livro.</br>
+  Cardinalidade: (1:N)
+
+
+- fornecedor fornece livro</br>
+</br>Um fornecedor pode fornecer zero ou vários livros, e um livro é fornecido por apenas um fornecedor.</br>
+  Cardinalidade: (1:N)
 
 
 <h3>2.2 DLD</h3>
