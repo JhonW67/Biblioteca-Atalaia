@@ -16,7 +16,39 @@ Este documento apresenta as informações essenciais sobre o banco de dados do S
 
 # 2. Documentos Criados
 
-<h3>2.1 DLD</h3>
+<h3>2.1 MER</h3>
+
+O Modelo Entidade-Relacionamento (MER) é uma abordagem conceitual utilizada no projeto do banco de dados do Sistema de Controle de Biblioteca para representar as principais entidades envolvidas, seus atributos e os relacionamentos entre elas. Este modelo ajuda a visualizar a estrutura de dados do sistema e como essas entidades interagem entre si.
+
+**2.1.1.	MER – Entidades**
+- autor
+- editora
+- categoria
+- livro
+- usuario
+- emprestimo
+- funcionario
+- multa
+- reserva
+- historico_movimentacao
+- fornecedor
+
+**2.1.2 Descrição das entidades**
+
+- autor(id_autor, nome);
+- editora(id_editora, nome,endereco, telefone);
+- categoria(id_categoria, nome);
+- livro(id_livro, titulo, id_autor, id_editora, id_categoria, ano publicação, quantidade_disponivel);
+- usuário(id_usuario, nome, endereço, telefone);
+- emprestimo(id_emprestimo, id_livro, id_usuario, data empréstimo, data_devolucao);
+- funcionario(id_funcionario, nome, cargo);
+- multa(id_multa, id_emprestimo, valor, data_pagamento);
+- reserva(id_reserva, id_usuario, id_livro, data reserva, status);
+- historico_movimentacao(id_movimentacao, id_livro, id_usuario, tipo_movimentacao, data_movimentacao);
+- fornecedor(id_fornecedor, nome, contato, endereço);
+
+
+<h3>2.2 DLD</h3>
 
 O Diagrama Lógico de Dados (DLD) do Sistema de Controle de Biblioteca é uma representação gráfica que ilustra a estrutura lógica do banco de dados utilizado para gerenciar os diferentes processos da biblioteca. Nesse diagrama, são exibidas informações cruciais, como os tipos de atributos associados às entidades (como autores, editoras, categorias, livros, usuários, empréstimos, funcionários, multas, reservas, histórico de movimentação, fornecedores), bem como as relações entre elas, incluindo chaves estrangeiras e restrições, como chaves únicas (unique keys).
 
