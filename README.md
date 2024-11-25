@@ -60,7 +60,7 @@ O Modelo Entidade-Relacionamento (MER) é uma abordagem conceitual utilizada no 
   Cardinalidade: (1:N).
 
 
-- **categoria classifica LIVRO**</br>
+- **categoria classifica livro**</br>
 </br>Uma categoria pode classificar zero ou vários livro, e um livro pertence a apenas uma categoria.</br>
   Cardinalidade: (1:N).
 
