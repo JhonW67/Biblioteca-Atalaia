@@ -27,6 +27,47 @@ O principal objetivo do DLD é fornecer uma visão estruturada e detalhada de co
 
 <h3>2.2 Entidades</h3>
 
+<h4>Autor</h4>
 
+![tabela_autor](https://github.com/user-attachments/assets/ce803e8c-3a2b-4bea-91d2-90a1d240e694)
 
+<h4>Categoria</h4>
+
+![tabela_categoria](https://github.com/user-attachments/assets/168b7c18-edd8-4f93-9e1f-4c9826393f7c)
+
+<h4>Editoria</h4>
+
+![tabela_editora](https://github.com/user-attachments/assets/6fb00b00-b232-4cf2-af55-5eaa069f8fde)
+
+<h4>Empréstimo</h4>
+
+![tabela_emprestimo](https://github.com/user-attachments/assets/f0d97674-f864-4fb9-ba0d-07df7886f352)
+
+<h4>Fornecedor</h4>
+
+![tabela_fornecedor](https://github.com/user-attachments/assets/617a8f98-f9be-4c42-9e8f-3f3599d361a5)
+
+<h4>Funcionário</h4>
+
+![tabela_funcionario](https://github.com/user-attachments/assets/22d1572e-b6e3-4fe3-a9e6-90454f86f3bb)
+
+<h4>Histórico de Movimentação</h4>
+
+![tabela_historico_movimentacao](https://github.com/user-attachments/assets/fe9c64ac-f211-4d46-b4f6-ffeec67e7f66)
+
+<h4>Livro</h4>
+
+![tabela_livro](https://github.com/user-attachments/assets/9f8fda89-3d7d-4127-9e09-a25e219cd998)
+
+<h4>Multa</h4>
+
+![tabela_multa](https://github.com/user-attachments/assets/91a4b7d4-36ae-4160-8103-e1710b76835f)
+
+<h4>Reserva</h4>
+
+![tabela_reserva](https://github.com/user-attachments/assets/4ca4d3ba-ca42-4e9d-ba8a-91e5fa12a8a4)
+
+<h4>Usuário</h4>
+
+![tabela_usuario](https://github.com/user-attachments/assets/ca357c6e-1af4-45bc-9890-ac15875a5a77)
 
