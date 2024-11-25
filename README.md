@@ -47,6 +47,52 @@ O Modelo Entidade-Relacionamento (MER) é uma abordagem conceitual utilizada no 
 - historico_movimentacao(id_movimentacao, id_livro, id_usuario, tipo_movimentacao, data_movimentacao);
 - fornecedor(id_fornecedor, nome, contato, endereço);
 
+**2.1.3 Relacionamentos**
+
+1. autor tem livro
+Um autor pode escrever zero ou vários livros, e um livro tem apenas um autor.
+Cardinalidade: (1:N).
+
+2. editora publica livro
+Uma editora pode publicar zero ou vários livros, e um livro é publicado por apenas uma editora.
+Cardinalidade: (1:N)
+
+3. categoria classifica LIVRO
+Uma categoria pode classificar zero ou vários livro, e um livro pertence a apenas uma categoria.
+Cardinalidade: (1:N)
+
+4. usuario faz emprestimo
+Um usuario pode realizar zero ou vários emprestimos, e um emprestimo é realizado por apenas um usuario.
+Cardinalidade: (1:N)
+
+5. livro é emprestado em emprestimo
+Um livro pode ser emprestado várias vezes, e um emprestimo envolve apenas um livro.
+Cardinalidade: (1:N)
+
+6. emprestimo gera multa
+Um emprestimo pode gerar zero ou uma multa, e uma multa está associada a apenas um emprestimo.
+Cardinalidade: (1:1)
+
+7. usuario faz reserva
+Um usuario pode fazer zero ou várias reservas, e uma reserva é feita por apenas um usuario.
+Cardinalidade: (1:N)
+
+8. livro é reservado em reserva
+Um livro pode ser reservado várias vezes por diferentes usuarios, e uma reserva envolve apenas um livro.
+Cardinalidade: (1:N)
+
+9. usuario tem historico_movimentacao
+Um usuario pode ter zero ou várias movimentações(empréstimos e devoluções), e um historico_movimentacao está associada a apenas um usuario.
+Cardinalidade: (1:N)
+
+10. livro tem historico_movimentacao
+Um livro pode ter zero ou várias movimentações(empréstimos e devoluções), e um historico_movimentacao está associada a apenas um livro.
+Cardinalidade: (1:N)
+
+11. fornecedor fornece livro
+Um fornecedor pode fornecer zero ou vários livros, e um livro é fornecido por apenas um fornecedor.
+Cardinalidade: (1:N)
+
 
 <h3>2.2 DLD</h3>
 
@@ -75,7 +121,7 @@ No contexto do Sistema de Controle de Biblioteca, o Dicionário de Dados é um r
 
 
 
-<h4>Editoria</h4>
+<h4>Editora</h4>
 
 ![tabela_editora](https://github.com/user-attachments/assets/6fb00b00-b232-4cf2-af55-5eaa069f8fde)
 
