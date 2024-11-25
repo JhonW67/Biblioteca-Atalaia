@@ -9,7 +9,7 @@ PJBD - Sistema de Controle de Biblioteca
 - DDL - Linguagem de Definição de Dados
 - DML - Linguagem de Manipulação de Dados
 
-# 1.Introdução
+# 1. Introdução
 
 Este documento apresenta as informações essenciais sobre o banco de dados do Sistema de Controle de Biblioteca, incluindo sua estrutura, modelagem e principais tabelas. Ele foi criado para facilitar o entendimento e a implementação do sistema, garantindo uma gestão eficiente de uma biblioteca.
 
@@ -118,12 +118,12 @@ O principal objetivo do DLD é fornecer uma visão estruturada e detalhada de co
 
 
 
-<h3>2.4 Dicionário de Dados</h3>
+<h3>2.3 Dicionário de Dados</h3>
 
 No contexto do Sistema de Controle de Biblioteca, o Dicionário de Dados é um recurso fundamental para o gerenciamento das informações no banco de dados. Ele funciona como um repositório que descreve detalhadamente os elementos que compõem o sistema, como as tabelas, seus atributos e os relacionamentos.
 
 
-<h3>2.2 Entidades</h3>
+<h3>2.3.1 Entidades</h3>
 
 
 <h4>Autor</h4>
