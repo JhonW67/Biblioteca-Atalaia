@@ -1,5 +1,4 @@
 -- Índices para otimização
-CREATE INDEX idx_titulo_livro ON Livro (titulo);
-CREATE INDEX idx_nome_usuario ON Usuario (nome);
-CREATE INDEX idx_data_emprestimo ON Emprestimo (data_emprestimo);
-
+CREATE INDEX idx_titulo_livro ON livro (titulo);
+CREATE INDEX idx_nome_usuario ON usuario (nome);
+CREATE INDEX idx_data_emprestimo ON emprestimo (data_emprestimo);
