@@ -1,5 +1,5 @@
 -- Criacao da Tabela Usuario: João Vitor
-CREATE TABLE Usuario (
+CREATE TABLE usuario (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     endereco VARCHAR(200),
