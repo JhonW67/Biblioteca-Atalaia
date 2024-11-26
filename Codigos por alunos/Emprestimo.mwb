@@ -1,9 +1,9 @@
-CREATE TABLE Emprestimo (
+CREATE TABLE emprestimo (
     id_emprestimo INT AUTO_INCREMENT PRIMARY KEY,
     id_livro INT NOT NULL,
     id_usuario INT NOT NULL,
     data_emprestimo DATE NOT NULL,
     data_devolucao DATE,
-    CONSTRAINT fk_emprestimo_livro FOREIGN KEY (id_livro) REFERENCES Livro(id_livro),
-    CONSTRAINT fk_emprestimo_usuario FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+    CONSTRAINT fk_emprestimo_livro FOREIGN KEY (id_livro) REFERENCES livro(id_livro),
+    CONSTRAINT fk_emprestimo_usuario FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario)
 );
